@@ -1,0 +1,111 @@
+BODY{
+    background-color: grey;
+}
+
+header{
+    background-color: RED;
+    display: flex;
+   
+    
+    height: 70px;
+}
+
+.titulo{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+
+}
+
+nav li{
+    display: inline;
+}
+
+nav li:hover{
+    color: white;
+    font-size: 25px;
+    background-color: red;
+    text-decoration: underline;
+}
+
+
+
+.img{
+    width: 400px;
+}
+
+.img7{
+    width: 300px;
+    text-align: center;
+}
+
+footer{
+    background-color: RED;
+
+}
+
+.contenedor-limite5{
+    background-color: black;
+    padding: 10px;
+    max-width: 1200px;
+}
+
+.padre{
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.cardimg4{
+    width: 300px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 3 / 2; }
+    .div2 { grid-area: 3 / 1 / 5 / 2; }
+    .div3 { grid-area: 1 / 2 / 3 / 3; }
+    .div4 { grid-area: 3 / 2 / 5 / 3; }
+    .div5 { grid-area: 1 / 3 / 3 / 4; }
+    .div6 { grid-area: 3 / 3 / 5 / 4; }
+
+    /*----media query------*/
+
+@media screen and (min-width:700px) {
+    h2{
+        align-items: start;
+    }
+}
+    
+/*----------grilla--------*/
